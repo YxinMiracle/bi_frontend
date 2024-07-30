@@ -8,8 +8,9 @@
     ],
   },
   { path: '/', redirect: '/add_chart' },
+  { path: '/add_chart_async', name: '智能分析(优化版)', icon: 'pieChart', component: './AddChartAsync' },
   { path: '/add_chart', name: '智能分析', icon: 'barChart', component: './AddChart' },
-  { path: '/mt_chart', name: '我的图表', icon: 'pieChart', component: './MyChart' },
+  { path: '/my_chart', name: '我的图表', icon: 'pieChart', component: './MyChart' },
   { path: '/welcome', icon: 'smile', component: './Welcome', name: '欢迎页' },
   {
     path: '/admin',
